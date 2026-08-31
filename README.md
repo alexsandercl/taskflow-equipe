@@ -11,7 +11,7 @@ Aplicação simples de lista de tarefas, desenvolvida como projeto colaborativo 
 ## Tecnologias utilizadas
 - HTML5
 - CSS3
-- JavaScript (vanilla)
+- JavaScript (ES6+, sem frameworks)
 
 Não é utilizado banco de dados nem backend — todo o estado vive em memória no navegador durante a sessão.
 
