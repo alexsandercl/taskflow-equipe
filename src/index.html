@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow · Organize suas tarefas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>TaskFlow</h1>
+      <p class="subtitle">Sua lista de tarefas, sem enrolação.</p>
+    </header>
+
+    <form id="task-form" class="task-form">
+      <input
+        type="text"
+        id="task-input"
+        placeholder="O que você precisa fazer?"
+        autocomplete="off"
+        required
+      >
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <section class="task-summary" id="task-summary"></section>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <p id="empty-state" class="empty-state">
+      Nenhuma tarefa por aqui ainda. Adicione a primeira acima.
+    </p>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
