@@ -1,0 +1,16 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Node (caso algum integrante use live-server, http-server etc.)
+node_modules/
+npm-debug.log
+
+# Diversos
+*.log
+.env
